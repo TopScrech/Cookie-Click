@@ -6,7 +6,7 @@ struct ShopView: View {
     private let tabs = ["Cookie", "Auto"]
     
     var body: some View {
-        TabView {
+        TabView(selection: $shopTab) {
             Text("Cookie")
                 .tag("Cookie")
                 .tabItem {

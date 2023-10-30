@@ -9,8 +9,12 @@ struct ClickerView: View {
             
             Spacer()
             
-            Image(systemName: "carrot")
-                .fontSize(160)
+            Button {
+                print("123")
+            } label: {
+                Image(systemName: "carrot")
+                    .fontSize(160)
+            }
             
             HStack {
                 Text("Click")

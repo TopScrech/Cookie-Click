@@ -8,21 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		F310FFA72AEFB1F1004C13F9 /* Cookie_ClickApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F310FFA62AEFB1F1004C13F9 /* Cookie_ClickApp.swift */; };
-		F310FFA92AEFB1F1004C13F9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F310FFA82AEFB1F1004C13F9 /* ContentView.swift */; };
-		F310FFAB2AEFB1F1004C13F9 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = F310FFAA2AEFB1F1004C13F9 /* Item.swift */; };
+		F310FFA92AEFB1F1004C13F9 /* Clicker View.swift in Sources */ = {isa = PBXBuildFile; fileRef = F310FFA82AEFB1F1004C13F9 /* Clicker View.swift */; };
 		F310FFAD2AEFB1F2004C13F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F310FFAC2AEFB1F2004C13F9 /* Assets.xcassets */; };
-		F310FFB12AEFB1F2004C13F9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F310FFB02AEFB1F2004C13F9 /* Preview Assets.xcassets */; };
+		F310FFBA2AEFB252004C13F9 /* ScrechKit in Frameworks */ = {isa = PBXBuildFile; productRef = F310FFB92AEFB252004C13F9 /* ScrechKit */; };
+		F310FFBC2AEFB5AE004C13F9 /* Clicker Topbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F310FFBB2AEFB5AE004C13F9 /* Clicker Topbar.swift */; };
+		F310FFBE2AEFB5D1004C13F9 /* Clicker Downbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F310FFBD2AEFB5D1004C13F9 /* Clicker Downbar.swift */; };
+		F310FFC02AEFC5F9004C13F9 /* ShopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F310FFBF2AEFC5F8004C13F9 /* ShopView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F310FFA32AEFB1F1004C13F9 /* Cookie Click.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cookie Click.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F310FFA62AEFB1F1004C13F9 /* Cookie_ClickApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cookie_ClickApp.swift; sourceTree = "<group>"; };
-		F310FFA82AEFB1F1004C13F9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		F310FFAA2AEFB1F1004C13F9 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		F310FFA82AEFB1F1004C13F9 /* Clicker View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Clicker View.swift"; sourceTree = "<group>"; };
 		F310FFAC2AEFB1F2004C13F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F310FFAE2AEFB1F2004C13F9 /* Cookie_Click.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Cookie_Click.entitlements; sourceTree = "<group>"; };
-		F310FFB02AEFB1F2004C13F9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F310FFB22AEFB1F2004C13F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F310FFBB2AEFB5AE004C13F9 /* Clicker Topbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Clicker Topbar.swift"; sourceTree = "<group>"; };
+		F310FFBD2AEFB5D1004C13F9 /* Clicker Downbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Clicker Downbar.swift"; sourceTree = "<group>"; };
+		F310FFBF2AEFC5F8004C13F9 /* ShopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -30,6 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F310FFBA2AEFB252004C13F9 /* ScrechKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,22 +60,15 @@
 			isa = PBXGroup;
 			children = (
 				F310FFA62AEFB1F1004C13F9 /* Cookie_ClickApp.swift */,
-				F310FFA82AEFB1F1004C13F9 /* ContentView.swift */,
-				F310FFAA2AEFB1F1004C13F9 /* Item.swift */,
+				F310FFA82AEFB1F1004C13F9 /* Clicker View.swift */,
+				F310FFBF2AEFC5F8004C13F9 /* ShopView.swift */,
+				F310FFBB2AEFB5AE004C13F9 /* Clicker Topbar.swift */,
+				F310FFBD2AEFB5D1004C13F9 /* Clicker Downbar.swift */,
 				F310FFAC2AEFB1F2004C13F9 /* Assets.xcassets */,
 				F310FFAE2AEFB1F2004C13F9 /* Cookie_Click.entitlements */,
 				F310FFB22AEFB1F2004C13F9 /* Info.plist */,
-				F310FFAF2AEFB1F2004C13F9 /* Preview Content */,
 			);
 			path = "Cookie Click";
-			sourceTree = "<group>";
-		};
-		F310FFAF2AEFB1F2004C13F9 /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				F310FFB02AEFB1F2004C13F9 /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -90,6 +87,9 @@
 			dependencies = (
 			);
 			name = "Cookie Click";
+			packageProductDependencies = (
+				F310FFB92AEFB252004C13F9 /* ScrechKit */,
+			);
 			productName = "Cookie Click";
 			productReference = F310FFA32AEFB1F1004C13F9 /* Cookie Click.app */;
 			productType = "com.apple.product-type.application";
@@ -118,6 +118,9 @@
 				Base,
 			);
 			mainGroup = F310FF9A2AEFB1F1004C13F9;
+			packageReferences = (
+				F310FFB82AEFB252004C13F9 /* XCRemoteSwiftPackageReference "ScrechKit" */,
+			);
 			productRefGroup = F310FFA42AEFB1F1004C13F9 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -132,7 +135,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F310FFB12AEFB1F2004C13F9 /* Preview Assets.xcassets in Resources */,
 				F310FFAD2AEFB1F2004C13F9 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -144,8 +146,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F310FFA92AEFB1F1004C13F9 /* ContentView.swift in Sources */,
-				F310FFAB2AEFB1F1004C13F9 /* Item.swift in Sources */,
+				F310FFBC2AEFB5AE004C13F9 /* Clicker Topbar.swift in Sources */,
+				F310FFBE2AEFB5D1004C13F9 /* Clicker Downbar.swift in Sources */,
+				F310FFA92AEFB1F1004C13F9 /* Clicker View.swift in Sources */,
+				F310FFC02AEFC5F9004C13F9 /* ShopView.swift in Sources */,
 				F310FFA72AEFB1F1004C13F9 /* Cookie_ClickApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -275,7 +279,7 @@
 				CODE_SIGN_ENTITLEMENTS = "Cookie Click/Cookie_Click.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Cookie Click/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = 8FQUA2F388;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
@@ -314,7 +318,7 @@
 				CODE_SIGN_ENTITLEMENTS = "Cookie Click/Cookie_Click.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Cookie Click/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = 8FQUA2F388;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
@@ -367,6 +371,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F310FFB82AEFB252004C13F9 /* XCRemoteSwiftPackageReference "ScrechKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/TopScrech/ScrechKit";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F310FFB92AEFB252004C13F9 /* ScrechKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F310FFB82AEFB252004C13F9 /* XCRemoteSwiftPackageReference "ScrechKit" */;
+			productName = ScrechKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = F310FF9B2AEFB1F1004C13F9 /* Project object */;
 }

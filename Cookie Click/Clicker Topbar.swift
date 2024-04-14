@@ -3,10 +3,12 @@ import SwiftUI
 struct ClickerTopbar: View {
     @State private var rotation = 0.0
     
+    @State private var showAchievements = false
+    
     var body: some View {
         HStack {
             Button {
-                
+                showAchievements = true
             } label: {
                 Image(systemName: "star.fill")
                     .largeTitle()
@@ -53,6 +55,9 @@ struct ClickerTopbar: View {
             }
         }
         .padding(.horizontal)
+        .sheet($showAchievements) {
+            AchievementsView()
+        }
     }
 }
 

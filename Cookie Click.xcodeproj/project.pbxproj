@@ -7,25 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F310FFA72AEFB1F1004C13F9 /* Cookie_ClickApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F310FFA62AEFB1F1004C13F9 /* Cookie_ClickApp.swift */; };
+		F310FFA72AEFB1F1004C13F9 /* Cookie Click App.swift in Sources */ = {isa = PBXBuildFile; fileRef = F310FFA62AEFB1F1004C13F9 /* Cookie Click App.swift */; };
 		F310FFA92AEFB1F1004C13F9 /* Clicker View.swift in Sources */ = {isa = PBXBuildFile; fileRef = F310FFA82AEFB1F1004C13F9 /* Clicker View.swift */; };
 		F310FFAD2AEFB1F2004C13F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F310FFAC2AEFB1F2004C13F9 /* Assets.xcassets */; };
 		F310FFBA2AEFB252004C13F9 /* ScrechKit in Frameworks */ = {isa = PBXBuildFile; productRef = F310FFB92AEFB252004C13F9 /* ScrechKit */; };
 		F310FFBC2AEFB5AE004C13F9 /* Clicker Topbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F310FFBB2AEFB5AE004C13F9 /* Clicker Topbar.swift */; };
 		F310FFBE2AEFB5D1004C13F9 /* Clicker Downbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F310FFBD2AEFB5D1004C13F9 /* Clicker Downbar.swift */; };
-		F310FFC02AEFC5F9004C13F9 /* ShopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F310FFBF2AEFC5F8004C13F9 /* ShopView.swift */; };
+		F310FFC02AEFC5F9004C13F9 /* Shop View.swift in Sources */ = {isa = PBXBuildFile; fileRef = F310FFBF2AEFC5F8004C13F9 /* Shop View.swift */; };
+		F3714DDD2AF04BCD00F769B8 /* SceneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3714DDC2AF04BCD00F769B8 /* SceneView.swift */; };
+		F3714DDF2AF051BF00F769B8 /* AchievementsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3714DDE2AF051BF00F769B8 /* AchievementsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F310FFA32AEFB1F1004C13F9 /* Cookie Click.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cookie Click.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F310FFA62AEFB1F1004C13F9 /* Cookie_ClickApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cookie_ClickApp.swift; sourceTree = "<group>"; };
+		F310FFA62AEFB1F1004C13F9 /* Cookie Click App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Cookie Click App.swift"; sourceTree = "<group>"; };
 		F310FFA82AEFB1F1004C13F9 /* Clicker View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Clicker View.swift"; sourceTree = "<group>"; };
 		F310FFAC2AEFB1F2004C13F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F310FFAE2AEFB1F2004C13F9 /* Cookie_Click.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Cookie_Click.entitlements; sourceTree = "<group>"; };
 		F310FFB22AEFB1F2004C13F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F310FFBB2AEFB5AE004C13F9 /* Clicker Topbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Clicker Topbar.swift"; sourceTree = "<group>"; };
 		F310FFBD2AEFB5D1004C13F9 /* Clicker Downbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Clicker Downbar.swift"; sourceTree = "<group>"; };
-		F310FFBF2AEFC5F8004C13F9 /* ShopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopView.swift; sourceTree = "<group>"; };
+		F310FFBF2AEFC5F8004C13F9 /* Shop View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Shop View.swift"; sourceTree = "<group>"; };
+		F3714DDC2AF04BCD00F769B8 /* SceneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneView.swift; sourceTree = "<group>"; };
+		F3714DDE2AF051BF00F769B8 /* AchievementsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,9 +63,11 @@
 		F310FFA52AEFB1F1004C13F9 /* Cookie Click */ = {
 			isa = PBXGroup;
 			children = (
-				F310FFA62AEFB1F1004C13F9 /* Cookie_ClickApp.swift */,
+				F3714DDE2AF051BF00F769B8 /* AchievementsView.swift */,
+				F3714DDC2AF04BCD00F769B8 /* SceneView.swift */,
+				F310FFA62AEFB1F1004C13F9 /* Cookie Click App.swift */,
 				F310FFA82AEFB1F1004C13F9 /* Clicker View.swift */,
-				F310FFBF2AEFC5F8004C13F9 /* ShopView.swift */,
+				F310FFBF2AEFC5F8004C13F9 /* Shop View.swift */,
 				F310FFBB2AEFB5AE004C13F9 /* Clicker Topbar.swift */,
 				F310FFBD2AEFB5D1004C13F9 /* Clicker Downbar.swift */,
 				F310FFAC2AEFB1F2004C13F9 /* Assets.xcassets */,
@@ -148,9 +154,11 @@
 			files = (
 				F310FFBC2AEFB5AE004C13F9 /* Clicker Topbar.swift in Sources */,
 				F310FFBE2AEFB5D1004C13F9 /* Clicker Downbar.swift in Sources */,
+				F3714DDF2AF051BF00F769B8 /* AchievementsView.swift in Sources */,
 				F310FFA92AEFB1F1004C13F9 /* Clicker View.swift in Sources */,
-				F310FFC02AEFC5F9004C13F9 /* ShopView.swift in Sources */,
-				F310FFA72AEFB1F1004C13F9 /* Cookie_ClickApp.swift in Sources */,
+				F310FFC02AEFC5F9004C13F9 /* Shop View.swift in Sources */,
+				F310FFA72AEFB1F1004C13F9 /* Cookie Click App.swift in Sources */,
+				F3714DDD2AF04BCD00F769B8 /* SceneView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

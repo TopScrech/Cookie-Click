@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 90;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -35,11 +35,9 @@
 /* Begin PBXFrameworksBuildPhase section */
 		F310FFA02AEFB1F1004C13F9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
 				F310FFBA2AEFB252004C13F9 /* ScrechKit in Frameworks */,
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
@@ -63,16 +61,16 @@
 		F310FFA52AEFB1F1004C13F9 /* Cookie Click */ = {
 			isa = PBXGroup;
 			children = (
+				F310FFA62AEFB1F1004C13F9 /* Cookie Click App.swift */,
+				F310FFB22AEFB1F2004C13F9 /* Info.plist */,
+				F310FFAE2AEFB1F2004C13F9 /* Cookie_Click.entitlements */,
+				F310FFAC2AEFB1F2004C13F9 /* Assets.xcassets */,
 				F3714DDE2AF051BF00F769B8 /* AchievementsView.swift */,
 				F3714DDC2AF04BCD00F769B8 /* SceneView.swift */,
-				F310FFA62AEFB1F1004C13F9 /* Cookie Click App.swift */,
 				F310FFA82AEFB1F1004C13F9 /* Clicker View.swift */,
 				F310FFBF2AEFC5F8004C13F9 /* Shop View.swift */,
 				F310FFBB2AEFB5AE004C13F9 /* Clicker Topbar.swift */,
 				F310FFBD2AEFB5D1004C13F9 /* Clicker Downbar.swift */,
-				F310FFAC2AEFB1F2004C13F9 /* Assets.xcassets */,
-				F310FFAE2AEFB1F2004C13F9 /* Cookie_Click.entitlements */,
-				F310FFB22AEFB1F2004C13F9 /* Info.plist */,
 			);
 			path = "Cookie Click";
 			sourceTree = "<group>";
@@ -89,8 +87,6 @@
 				F310FFA12AEFB1F1004C13F9 /* Resources */,
 			);
 			buildRules = (
-			);
-			dependencies = (
 			);
 			name = "Cookie Click";
 			packageProductDependencies = (
@@ -116,7 +112,6 @@
 				};
 			};
 			buildConfigurationList = F310FF9E2AEFB1F1004C13F9 /* Build configuration list for PBXProject "Cookie Click" */;
-			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -127,6 +122,7 @@
 			packageReferences = (
 				F310FFB82AEFB252004C13F9 /* XCRemoteSwiftPackageReference "ScrechKit" */,
 			);
+			preferredProjectObjectVersion = 90;
 			productRefGroup = F310FFA42AEFB1F1004C13F9 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -139,18 +135,15 @@
 /* Begin PBXResourcesBuildPhase section */
 		F310FFA12AEFB1F1004C13F9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
 				F310FFAD2AEFB1F2004C13F9 /* Assets.xcassets in Resources */,
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F310FF9F2AEFB1F1004C13F9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
 				F310FFBC2AEFB5AE004C13F9 /* Clicker Topbar.swift in Sources */,
 				F310FFBE2AEFB5D1004C13F9 /* Clicker Downbar.swift in Sources */,
@@ -160,12 +153,11 @@
 				F310FFA72AEFB1F1004C13F9 /* Cookie Click App.swift in Sources */,
 				F3714DDD2AF04BCD00F769B8 /* SceneView.swift in Sources */,
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		F310FFB32AEFB1F2004C13F9 /* Debug */ = {
+		F310FFB32AEFB1F2004C13F9 /* Debug configuration for PBXProject "Cookie Click" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -226,7 +218,7 @@
 			};
 			name = Debug;
 		};
-		F310FFB42AEFB1F2004C13F9 /* Release */ = {
+		F310FFB42AEFB1F2004C13F9 /* Release configuration for PBXProject "Cookie Click" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -279,7 +271,7 @@
 			};
 			name = Release;
 		};
-		F310FFB62AEFB1F2004C13F9 /* Debug */ = {
+		F310FFB62AEFB1F2004C13F9 /* Debug configuration for PBXNativeTarget "Cookie Click" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -293,6 +285,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Cookie Click/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Cookie Click";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -301,8 +294,7 @@
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
@@ -318,7 +310,7 @@
 			};
 			name = Debug;
 		};
-		F310FFB72AEFB1F2004C13F9 /* Release */ = {
+		F310FFB72AEFB1F2004C13F9 /* Release configuration for PBXNativeTarget "Cookie Click" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -332,6 +324,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Cookie Click/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Cookie Click";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -340,8 +333,7 @@
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
@@ -363,19 +355,17 @@
 		F310FF9E2AEFB1F1004C13F9 /* Build configuration list for PBXProject "Cookie Click" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F310FFB32AEFB1F2004C13F9 /* Debug */,
-				F310FFB42AEFB1F2004C13F9 /* Release */,
+				F310FFB32AEFB1F2004C13F9 /* Debug configuration for PBXProject "Cookie Click" */,
+				F310FFB42AEFB1F2004C13F9 /* Release configuration for PBXProject "Cookie Click" */,
 			);
-			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 		F310FFB52AEFB1F2004C13F9 /* Build configuration list for PBXNativeTarget "Cookie Click" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F310FFB62AEFB1F2004C13F9 /* Debug */,
-				F310FFB72AEFB1F2004C13F9 /* Release */,
+				F310FFB62AEFB1F2004C13F9 /* Debug configuration for PBXNativeTarget "Cookie Click" */,
+				F310FFB72AEFB1F2004C13F9 /* Release configuration for PBXNativeTarget "Cookie Click" */,
 			);
-			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */

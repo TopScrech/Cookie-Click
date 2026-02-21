@@ -7,30 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F310FFA72AEFB1F1004C13F9 /* Cookie Click App.swift in Sources */ = {isa = PBXBuildFile; fileRef = F310FFA62AEFB1F1004C13F9 /* Cookie Click App.swift */; };
-		F310FFA92AEFB1F1004C13F9 /* Clicker View.swift in Sources */ = {isa = PBXBuildFile; fileRef = F310FFA82AEFB1F1004C13F9 /* Clicker View.swift */; };
-		F310FFAD2AEFB1F2004C13F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F310FFAC2AEFB1F2004C13F9 /* Assets.xcassets */; };
 		F310FFBA2AEFB252004C13F9 /* ScrechKit in Frameworks */ = {isa = PBXBuildFile; productRef = F310FFB92AEFB252004C13F9 /* ScrechKit */; };
-		F310FFBC2AEFB5AE004C13F9 /* Clicker Topbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F310FFBB2AEFB5AE004C13F9 /* Clicker Topbar.swift */; };
-		F310FFBE2AEFB5D1004C13F9 /* Clicker Downbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F310FFBD2AEFB5D1004C13F9 /* Clicker Downbar.swift */; };
-		F310FFC02AEFC5F9004C13F9 /* Shop View.swift in Sources */ = {isa = PBXBuildFile; fileRef = F310FFBF2AEFC5F8004C13F9 /* Shop View.swift */; };
-		F3714DDD2AF04BCD00F769B8 /* SceneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3714DDC2AF04BCD00F769B8 /* SceneView.swift */; };
-		F3714DDF2AF051BF00F769B8 /* AchievementsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3714DDE2AF051BF00F769B8 /* AchievementsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F310FFA32AEFB1F1004C13F9 /* Cookie Click.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cookie Click.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F310FFA62AEFB1F1004C13F9 /* Cookie Click App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Cookie Click App.swift"; sourceTree = "<group>"; };
-		F310FFA82AEFB1F1004C13F9 /* Clicker View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Clicker View.swift"; sourceTree = "<group>"; };
-		F310FFAC2AEFB1F2004C13F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		F310FFAE2AEFB1F2004C13F9 /* Cookie_Click.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Cookie_Click.entitlements; sourceTree = "<group>"; };
-		F310FFB22AEFB1F2004C13F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F310FFBB2AEFB5AE004C13F9 /* Clicker Topbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Clicker Topbar.swift"; sourceTree = "<group>"; };
-		F310FFBD2AEFB5D1004C13F9 /* Clicker Downbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Clicker Downbar.swift"; sourceTree = "<group>"; };
-		F310FFBF2AEFC5F8004C13F9 /* Shop View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Shop View.swift"; sourceTree = "<group>"; };
-		F3714DDC2AF04BCD00F769B8 /* SceneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneView.swift; sourceTree = "<group>"; };
-		F3714DDE2AF051BF00F769B8 /* AchievementsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		F3B1B3F82F49C2A700AA5AD3 /* Exceptions for "Cookie Click" folder in "Cookie Click" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = F310FFA22AEFB1F1004C13F9 /* Cookie Click */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		F3B1B3EE2F49C2A700AA5AD3 /* Cookie Click */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				F3B1B3F82F49C2A700AA5AD3 /* Exceptions for "Cookie Click" folder in "Cookie Click" target */,
+			);
+			path = "Cookie Click";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		F310FFA02AEFB1F1004C13F9 /* Frameworks */ = {
@@ -45,7 +48,7 @@
 		F310FF9A2AEFB1F1004C13F9 = {
 			isa = PBXGroup;
 			children = (
-				F310FFA52AEFB1F1004C13F9 /* Cookie Click */,
+				F3B1B3EE2F49C2A700AA5AD3 /* Cookie Click */,
 				F310FFA42AEFB1F1004C13F9 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -56,23 +59,6 @@
 				F310FFA32AEFB1F1004C13F9 /* Cookie Click.app */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		F310FFA52AEFB1F1004C13F9 /* Cookie Click */ = {
-			isa = PBXGroup;
-			children = (
-				F310FFA62AEFB1F1004C13F9 /* Cookie Click App.swift */,
-				F310FFB22AEFB1F2004C13F9 /* Info.plist */,
-				F310FFAE2AEFB1F2004C13F9 /* Cookie_Click.entitlements */,
-				F310FFAC2AEFB1F2004C13F9 /* Assets.xcassets */,
-				F3714DDE2AF051BF00F769B8 /* AchievementsView.swift */,
-				F3714DDC2AF04BCD00F769B8 /* SceneView.swift */,
-				F310FFA82AEFB1F1004C13F9 /* Clicker View.swift */,
-				F310FFBF2AEFC5F8004C13F9 /* Shop View.swift */,
-				F310FFBB2AEFB5AE004C13F9 /* Clicker Topbar.swift */,
-				F310FFBD2AEFB5D1004C13F9 /* Clicker Downbar.swift */,
-			);
-			path = "Cookie Click";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -87,6 +73,9 @@
 				F310FFA12AEFB1F1004C13F9 /* Resources */,
 			);
 			buildRules = (
+			);
+			fileSystemSynchronizedGroups = (
+				F3B1B3EE2F49C2A700AA5AD3 /* Cookie Click */,
 			);
 			name = "Cookie Click";
 			packageProductDependencies = (
@@ -104,7 +93,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1510;
-				LastUpgradeCheck = 1510;
+				LastUpgradeCheck = 2630;
 				TargetAttributes = {
 					F310FFA22AEFB1F1004C13F9 = {
 						CreatedOnToolsVersion = 15.1;
@@ -136,7 +125,6 @@
 		F310FFA12AEFB1F1004C13F9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			files = (
-				F310FFAD2AEFB1F2004C13F9 /* Assets.xcassets in Resources */,
 			);
 		};
 /* End PBXResourcesBuildPhase section */
@@ -145,13 +133,6 @@
 		F310FF9F2AEFB1F1004C13F9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			files = (
-				F310FFBC2AEFB5AE004C13F9 /* Clicker Topbar.swift in Sources */,
-				F310FFBE2AEFB5D1004C13F9 /* Clicker Downbar.swift in Sources */,
-				F3714DDF2AF051BF00F769B8 /* AchievementsView.swift in Sources */,
-				F310FFA92AEFB1F1004C13F9 /* Clicker View.swift in Sources */,
-				F310FFC02AEFC5F9004C13F9 /* Shop View.swift in Sources */,
-				F310FFA72AEFB1F1004C13F9 /* Cookie Click App.swift in Sources */,
-				F3714DDD2AF04BCD00F769B8 /* SceneView.swift in Sources */,
 			);
 		};
 /* End PBXSourcesBuildPhase section */
@@ -191,7 +172,9 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 8FQUA2F388;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
@@ -213,6 +196,7 @@
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -252,7 +236,9 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 8FQUA2F388;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
@@ -267,6 +253,7 @@
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
 			};
 			name = Release;
@@ -279,10 +266,13 @@
 				CODE_SIGN_ENTITLEMENTS = "Cookie Click/Cookie_Click.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "";
-				DEVELOPMENT_TEAM = 8FQUA2F388;
+				ENABLE_APP_SANDBOX = YES;
 				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_OUTGOING_NETWORK_CONNECTIONS = YES;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Cookie Click/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "Cookie Click";
@@ -318,10 +308,13 @@
 				CODE_SIGN_ENTITLEMENTS = "Cookie Click/Cookie_Click.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "";
-				DEVELOPMENT_TEAM = 8FQUA2F388;
+				ENABLE_APP_SANDBOX = YES;
 				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_OUTGOING_NETWORK_CONNECTIONS = YES;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Cookie Click/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "Cookie Click";

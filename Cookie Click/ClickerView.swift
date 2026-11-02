@@ -70,10 +70,10 @@ struct ClickerView: View {
         
         activeNodes += 1
         
-        delay(5) {
+        Task { @MainActor in
+            try? await Task.sleep(for: .seconds(5))
             imageNode.removeFromParentNode()
-            //            imageNode.worldPosition.x
-            self.activeNodes -= 1
+            activeNodes -= 1
         }
         
         // Schedule a check to remove the node if it goes off-screen
